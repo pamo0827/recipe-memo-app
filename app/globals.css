@@ -75,3 +75,32 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 138, 101, 0.2);
 }
+
+/* Fluid Typography - 画面サイズに応じてフォントサイズを調整 */
+.fluid-text-xs {
+  font-size: clamp(0.65rem, 1.5vw, 0.75rem);
+}
+
+.fluid-text-sm {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+}
+
+.fluid-text-base {
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+}
+
+.fluid-text-lg {
+  font-size: clamp(1rem, 3vw, 1.125rem);
+}
+
+.fluid-text-xl {
+  font-size: clamp(1.125rem, 3.5vw, 1.25rem);
+}
+
+.fluid-text-2xl {
+  font-size: clamp(1.25rem, 4vw, 1.5rem);
+}
+
+.fluid-text-3xl {
+  font-size: clamp(1.5rem, 5vw, 1.875rem);
+}
